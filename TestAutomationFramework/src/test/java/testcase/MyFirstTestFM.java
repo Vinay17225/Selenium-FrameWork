@@ -12,6 +12,7 @@ public class MyFirstTestFM  extends BaseTest{
 	{
 
 		System.out.println("clicked successfully");
+		System.out.println("clicked successfully");
 		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));		
 		driver.findElement(By.linkText(loc.getProperty("sign_link"))).click();
 		
